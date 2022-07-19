@@ -1,4 +1,6 @@
 class TicTacToe
+  attr_reader :board
+
   @@play_counter = 0
   
   def initialize(board, player_input, player)
